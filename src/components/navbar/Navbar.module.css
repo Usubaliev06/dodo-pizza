@@ -1,0 +1,154 @@
+.wrapper {
+    height: 10vh;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 9;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.link>a {
+    text-decoration: none;
+    color: black;
+}
+
+nav>button {
+    height: 45px;
+    width: 160px;
+    border-radius: 30px;
+    background-color: rgb(255, 105, 0);
+    color: white;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.247);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.activeModal {
+    opacity: 1;
+    visibility: visible;
+}
+
+.basketWrapper {
+    width: 430px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: -550px;
+    transition: all 0.3s linear;
+
+}
+
+.activeModal>.basketWrapper {
+    right: 0;
+
+}
+
+.closeModal {
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    width: 50px;
+    height: 50px;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    transition: all 0.6s linear;
+}
+
+.closeModal:hover {
+    transform: translate(0, -50%) rotate(360deg);
+}
+
+
+
+.test {
+    width: 430px;
+    height: 100vh;
+    padding: 15px 20px;
+    background-color: white;
+}
+
+.test>button {
+    width: 300px;
+    background-color: rgb(255, 105, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+    padding: 12px 54px 12px 48px;
+    border-radius: 30px;
+    margin-left: 17%;
+    margin-top: 120px;
+}
+
+#h2 {}
+
+.basket1 {
+    margin-bottom: 20px;
+}
+
+.basket1_1 {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+.basket1_1_1 {
+    display: flex;
+}
+
+.basket1_1_1>img {
+    width: 60px;
+    height: 60px;
+}
+
+.basket1_1_2 {
+    display: flex;
+
+}
+
+.basket2 {
+    display: flex;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+}
+
+#p1_basket {
+    margin-right: 160px;
+}
+
+#p2_basket {}
+
+.basket3 {
+    display: flex;
+
+}

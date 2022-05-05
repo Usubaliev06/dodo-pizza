@@ -1,0 +1,5 @@
+export const SET_PIZZAS = "actionReduser/SET_PIZZAS"
+export const SET_PENDING = "actionReduser/SET_PENDING"
+export const SET_PIZZA = "pizzaReduser/SET_PIZZA"
+export const SET_NEW_PIZZA = "basketReduser/SET_PIZZAS"
+export const AUTH_SUCCESS ="authReduser/AUTH_SUCCESS"

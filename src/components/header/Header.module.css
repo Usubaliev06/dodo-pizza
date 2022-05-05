@@ -1,0 +1,63 @@
+.wrapper{
+    height: 20vh; 
+    padding-left: 120px;
+    padding-right: 120px;
+   
+}
+header{
+    height: 100%;
+    width: 100%;
+    display: flex ; 
+    align-items: center;
+    text-align: center;
+}
+header > img{
+    width: 270px;
+    height: 80px;
+}
+.h1{
+margin-left: 30px;
+align-items: center;
+   
+}
+.h1_1 >img{
+height: 13px;
+width: 13px;
+margin-left: 6px;
+}
+.h1_1{
+    display: flex;
+    align-items: center;
+}
+#delivery{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    width: 200px;
+    margin-bottom: -18px;
+}
+.h2{
+    align-items: center; 
+    margin-left: 40px;
+}
+#number{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: -10px;
+}
+#call{
+    color: rgb(109, 108, 108);
+}
+.h3{
+  text-align: center;
+  margin-left: 120px;
+}
+header > button{
+    height: 30px;
+    width: 70px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 30px;
+    color: rgb(109, 108, 108);
+}

@@ -1,0 +1,111 @@
+.wrapper{
+    height: 70vh; 
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: rgb(0, 0, 0);
+}
+footer{
+    background-color: rgb(7, 7, 7);
+    display: flex;
+}
+.f1{
+  
+}
+.f1 > p{
+color: white;
+}
+.f1 > a{
+    text-decoration: none;
+    color: rgb(109, 108, 108);
+    line-height: 1.2;
+    margin-bottom: 9px;
+    white-space: normal;
+
+}
+.f2{
+  margin-left: 30px;
+}
+.f2 > p{
+color: white;
+}
+.f2 > a{
+    text-decoration: none;
+    color: rgb(109, 108, 108);
+    line-height: 1.2;
+    margin-bottom: 9px;
+    white-space: normal;
+}.f3{
+ width: 50px;
+  margin-left: 30px;
+
+}
+.f3 > p{
+color: white;
+}
+.f3 > a{
+    text-decoration: none;
+    color: rgb(109, 108, 108);
+    line-height: 1.2;
+    margin-bottom: 9px;
+    white-space: normal;
+}.f4{
+    margin-left: 100px;
+    width: 250px;
+}
+.f4 > p{
+color: white;
+}
+.f4 > a{
+    text-decoration: none;
+    color: rgb(109, 108, 108);
+    line-height: 1.2;
+    margin-bottom: 9px;
+    white-space: normal;
+}
+.f5{
+margin-left: 70px;
+}
+.f5_1{
+display: flex;
+align-items: center;
+margin-left: 90px;
+margin-bottom: -40px;
+}
+.f5_1 >img{
+    height: 25px;
+    width:25px;
+    margin-left: 7px;
+    
+}
+.f5_1 >p{
+color: rgb(109, 108, 108);
+   
+    
+}
+.f5 >a{
+text-decoration: none;
+color: rgb(109, 108, 108);
+font-size: 20px;
+margin-left: 50px;
+
+}
+.f5 > p{
+    color: white;
+    font-size: 25px;
+   margin-bottom: ;
+}
+.f5_2{
+    margin-top: 100px;
+    text-align: right;
+}
+.f5_2 > p{
+color: white;
+
+}
+.f5_2 > img{
+    width: 250px;
+    height: 50px;
+}
+.f5_2 >p{
+color: rgb(109, 108, 108);
+}

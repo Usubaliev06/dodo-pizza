@@ -1,0 +1,83 @@
+.card_3 {
+    width: 278px;
+    height: auto;
+    margin-left: 30px;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    margin-left: 40%;
+}
+
+.img {
+
+    border: 2px gray dashed;
+}
+
+.img>img {
+    padding: 5px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#img {
+    display: none;
+
+}
+
+.label_img {
+    cursor: pointer;
+}
+
+#card_3_block1_p1 {
+    margin: 8px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+}
+
+#card_3_block1_p2 {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(92, 99, 112);
+    font-weight: 400;
+}
+
+.card_3_block2 {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.card_3_block2>input {
+    height: 100%;
+    overflow: auto;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+
+
+}
+
+input {
+    border: 3px solid orange;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 240, 230);
+    color: rgb(209, 87, 0);
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}

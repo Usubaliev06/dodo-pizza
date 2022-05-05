@@ -1,0 +1,11 @@
+.from_wrapper{
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin: 0 auto;
+   grid-gap: 15px;
+}
+.from_wrapper >input{
+    border: 1px solid black;
+    padding: 10px;
+}

@@ -1,0 +1,117 @@
+.slider{
+    background-color: rgb(234, 236, 234);
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.container{
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.oftenOrdered{
+    padding-left: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding-right: 30px;
+}
+.oftenOrdered >p {
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 16px 0px;
+}
+.cooking{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+}
+.cooking > img{
+    height: 45px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+#cooking_p1{
+    text-align: left;
+    margin: 1px 0px 0px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-left: 12px;
+    margin-bottom: -20px;
+}
+#cooking_p2{
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: block;
+    font-size: 16px;
+    color: rgb(92, 99, 112);
+    margin-left: 12px;
+}
+
+.delivery{
+display: flex;
+height: 450px;
+padding-left: 120px;
+padding-right: 120px;
+}
+.delivery_block1{
+width: 336px;
+margin-right: 40px;
+}
+.delivery_block1 >h1{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 36px;
+    margin: 54px 0px;
+}
+#delivery_block1_p1{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 105, 0);
+}
+#delivery_block1_p2{
+    font-weight: 400;
+    font-size: 16px;
+}
+.delivery_block2{
+    width: 336px;
+    margin-right: 40px;
+    margin-top: 140px;
+}
+#delivery_block2_p1{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 105, 0);
+}
+#delivery_block2_p2{
+    font-weight: 400;
+    font-size: 16px;
+}#delivery_block2_p3{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 105, 0);
+}#delivery_block2_p4{
+    font-weight: 400;
+    font-size: 16px;
+}#delivery_block2_p5{
+    font-weight: 400;
+    font-size: 16px;
+}
+.delivery_block3{
+    width: 211px;
+    margin-top: 140px;
+
+}
+.delivery_block3 >p{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 105, 0);
+}
+.basket{
+    width: 430px;
+    height: 100vh;
+}

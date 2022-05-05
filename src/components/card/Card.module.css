@@ -1,0 +1,13 @@
+.card{
+border: 3px solid rgb(230, 112, 27);
+border-radius: 30px; 
+height: 270px;
+width: 220px;
+padding: 5px;
+}
+img{
+border-radius: 25px; 
+height: 100%;
+width: 100%;
+}
+
