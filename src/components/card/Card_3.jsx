@@ -1,5 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
+import Api from '../../api/Api';
 import { ACsetBasket } from '../../redux/actionCreators';
 import css from './Card_3.module.css';
 
@@ -14,6 +15,13 @@ const imgUrl="http://solid.lol/public/"+ file
     distpach(
       ACsetBasket(name,info,file,isAdmin, ...props)
     )
+  }
+
+  const onHeandleDelite =() => {
+   Api.delete(id)
+   .then(()=> {
+     window.location.reload()
+   })
   }
 
 
